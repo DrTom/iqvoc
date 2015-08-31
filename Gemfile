@@ -88,3 +88,6 @@ end
 group :heroku do
   gem 'rails_12factor'
 end
+
+gem 'cider_ci-support', '= 2.0.0.pre.beta.2', group: [:development, :test]
+gem 'rubocop'
